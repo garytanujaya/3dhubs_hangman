@@ -1,0 +1,71 @@
+body{
+  background:#e6e6e7;
+  font-family: Helvetica;
+  color: #000000;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+h1{
+  font-weight: 100;
+  font-size: 48px;
+  margin-top: 230px;
+
+}
+
+
+#buttons{
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#buttons li{
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:36px;
+  height:31px;
+  padding-top:10px;
+  background:#d6d6d7;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+#correct-word{
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+
+#correct-word li{
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.clicked{
+  visibility: hidden;
+}
+
+#mylives{
+  font-size:30px;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background: #d6d6d7;
+  color: #000000;
+  border: solid 1px #ffffff;
+  font-size:15px;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
